@@ -1,0 +1,25 @@
+1) Sobre o dataset:
+    
+a. 
+Nome: Forest Fires
+Descrição: Conjunto de dados referentes a área de queimadas de incêndios florestais, na região nordeste de Portugal, usando dados metereólogos e outros dados.
+Volume de dados: 517
+
+b. Principais colunas e seus significados;
+   X: Coordenada espacial do eixo X no mapa do parque de Montesinho: 1 a 9
+   Y: Coordenadas espaciais do eixo Y no eixo do mapa do parque de Montesinho: 2 a 9
+   month: mês do ano("jan" a "dez")
+   day: dia da semana:("mon" para "sol")
+   FFMC: índice FFMC do sistema FWI: 18,7 a 96,204   DMC: índice DMC do sistema FWI: 1.1 a 291.3 
+   DC: DC index do sistema FWI: 7,9 a 860,6 
+   ISI: índice ISI do sistema FWI: 0.0 a 56.10
+   temp: temperatura em graus Celsius: 2,2 a 33,30
+   RH: umidade relativa em%: 15,0 a 100
+   wind: velocidade do vento em km / h: 0.40 a 9.40 
+   rain: chuva externa em mm / m2: 0.0 a 6.4 
+   area: a área queimada da floresta (em ha): 0.00 a 1090.84.
+
+
+c. Objetivo do dataset, qual o resultado esperado após os algoritmos.
+   Prever incêndios florestais usando dados meteorológicos. 
+   Determinar em quais períodos os incêndios são mais frequentes.
